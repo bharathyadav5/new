@@ -1,0 +1,60 @@
+
+p{
+    color:green;
+}
+a{
+    color:green;
+}
+li{
+    list-style-type: square;
+}
+.special{
+    color:red;
+}
+/* hover is used for links  */
+a:hover{
+    color:saddlebrown;
+    text-decoration:none;
+}
+/* . is used for any class and 
+body means in body h1+p means just after p of h1
+ .special means class named 
+ special in p tag */
+ /* if there is no p tag just after
+ h1 it doesnt work */
+body h1+p .special{
+    color:yellow;
+    background-color: black;
+    padding:5px;
+}
+/* # is used for id */
+#heading{
+    color:red;
+    background-color: black;
+    padding:5px;
+}
+/* p#one means anything of id 
+in p tag */
+p#one{
+    color:blue;
+}
+/* to use class in all 
+li tags */
+li[class]{
+    font-size: 300%;
+}
+/* to use special class in 
+li tag */
+li[class="a"]{
+    color:rosybrown
+}
+/* to use all a named
+classes */
+li[class~="a"]{
+    color:blueviolet;
+}
+/* * is used to select 
+everything */
+* {
+    list-style-type: none;
+}

@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+.container {
+  background-color: darkcyan;
+  margin-left: 380px;
+  margin-right: 380px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.abcd {
+  background-color: grey;
+  width: 20%;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+}
+.mainheading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+h2,
+h3 {
+  color: white;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+p {
+  color: aliceblue;
+  text-align: center;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  font-size: large;
+  height: 50px;
+  width: 70%;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  color: aliceblue;
+  font-style: inherit;
+  font-weight: 800;
+  background-color: black;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: grey;
+}
+fieldset,
+legend {
+  text-align: center;
+}
+.sec1,.sec2{
+  padding: 30px;
+}
+
+.sub{
+  padding: 60px;
+}
+#abc::before{
+  content:url("C:\Users\Bharath\Downloads\lock.png");
+}
